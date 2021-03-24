@@ -198,6 +198,7 @@ echo "$((($(date +%s)-$TIME_START)/60)) min."
 
 cd
 ## INSTALL_DIR_PARENT
+cp .bashrc .bashrc.backup
 /bin/cp /etc/skel/.bashrc ~/
 echo 'clear' >> .bashrc
 echo 'echo ""' >> .bashrc
